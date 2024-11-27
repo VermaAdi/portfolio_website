@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholist - Scholarships</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Scholist</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Scholarships</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Scholarships</h1>
+        <input type="text" id="search" class="form-control mt-3" placeholder="Search Scholarships">
+        
+        <div class="filters mt-4">
+            <button class="btn btn-outline-secondary">Category</button>
+            <button class="btn btn-outline-secondary">Award Amount</button>
+            <button class="btn btn-outline-secondary">Location</button>
+            <button class="btn btn-outline-secondary">Major</button>
+            <button class="btn btn-outline-secondary">Grade Level</button>
+            <button class="btn btn-outline-secondary">Citizenship</button>
+        </div>
+
+        <div id="scholarship-results" class="mt-5 text-center">
+            <p>0 scholarships available</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
